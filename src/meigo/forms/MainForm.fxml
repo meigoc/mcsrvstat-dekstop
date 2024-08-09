@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="1328" styleClass="">
+  <children>
+    <com.jfoenix.controls.JFXSpinner focusTraversable="false" id="progressIndicatorAlt" layoutX="645" layoutY="381" prefHeight="128" prefWidth="128" progress="-1" radius="16" styleClass="progress-indicator jfx-spinner "/>
+    <Data contextMenuEnabled="" cursor="WAIT" enabled="1" id="data-browser" url="https://mcsrvstat.us/" visible="1"/>
+    <Panel AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" backgroundColor="#198754" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="56" prefWidth="1328" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <com.jfoenix.controls.JFXSpinner focusTraversable="false" id="progressIndicator" layoutX="645" layoutY="12" prefHeight="32" prefWidth="38" progress="-1" radius="16" styleClass="progress-indicator jfx-spinner "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <WebView AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="-16" AnchorPane.topAnchor="0" focusTraversable="false" id="browser" layoutX="0" layoutY="0" opacity="0.01" prefHeight="800" prefWidth="1344"/>
+    <LabelEx AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="8" prefHeight="16" prefWidth="1328" styleClass="label " text="This app is in active development. Beta version" textAlignment="LEFT" textFill="#e64d4d" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressIndicatorAlt" visible="1"/>
+  </children>
+</AnchorPane>

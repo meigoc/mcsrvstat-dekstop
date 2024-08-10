@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="832" prefWidth="1328" styleClass="">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="832" prefWidth="1331" styleClass="">
   <children>
-    <Panel backgroundColor="#198754" borderColor="#2f2f2f" borderRadius="10" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="1328" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="3" backgroundColor="#212529" borderColor="#c0c0c0" borderRadius="10" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="0" layoutY="808" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="24" prefWidth="1328" styleClass="" titleColor="#212529" titleOffset="15" titlePosition="TOP_LEFT">
       <children/>
       <titleFont>
         <Font name="System Regular" size="12"/>
       </titleFont>
     </Panel>
-    <FragmentPane AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="32" alignment="CENTER" focusTraversable="false" id="fragment" layoutX="0" layoutY="32" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="800" prefWidth="1328" spacing="0" styleClass="fragment-pane "/>
+    <Panel AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="3" backgroundColor="#198754" borderColor="#2f2f2f" borderRadius="10" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="1328" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <FragmentPane AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="3" AnchorPane.topAnchor="32" alignment="CENTER" focusTraversable="false" id="fragment" layoutX="0" layoutY="32" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="792" prefWidth="1328" spacing="0" styleClass="fragment-pane "/>
     <Data content="MainForm" cursor="DEFAULT" enabled="1" id="data-fragment" visible="1"/>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
     <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="33" id="close" layoutX="1281" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="47">
@@ -15,7 +21,7 @@
         <Font name="System Regular" size="12"/>
       </font>
     </ImageViewEx>
-    <Data clickImage=".data/img/pon3.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/pon.png" id="data-close" image=".data/img/pon2.png" visible="1"/>
+    <Data clickImage=".data/img/pon3.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/pon.png" id="data-close" image=".data/img/pon2.png" visible=""/>
     <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="33" id="imageAlt" layoutX="1235" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="46">
       <font>
         <Font name="System Regular" size="12"/>
@@ -40,5 +46,17 @@
       </font>
     </ImageViewEx>
     <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/minecraft.png" visible="1"/>
+    <VBox AnchorPane.leftAnchor="1152" AnchorPane.rightAnchor="3" alignment="TOP_RIGHT" focusTraversable="false" id="vbox" layoutX="1152" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="176" spacing="5" styleClass="">
+      <children>
+        <FlatButton alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#e64d4d" id="buttonAlt" layoutX="128" layoutY="0" prefHeight="32" prefWidth="48" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/icons8-close-16.png" id="data-buttonAlt" visible="1"/>
+      </children>
+    </VBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-vbox" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
   </children>
 </AnchorPane>

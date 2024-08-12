@@ -13,7 +13,7 @@
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
-    <WebView AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="-16" AnchorPane.topAnchor="0" focusTraversable="false" id="browser" layoutX="0" layoutY="0" opacity="0.01" prefHeight="800" prefWidth="1344"/>
+    <WebView AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="-16" AnchorPane.topAnchor="-8" focusTraversable="false" id="browser" layoutX="0" layoutY="-8" opacity="0.01" prefHeight="792" prefWidth="1344"/>
     <LabelEx AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="8" prefHeight="16" prefWidth="1328" styleClass="label " text="This app is in active development. Beta version" textAlignment="LEFT" textFill="#e64d4d" underline="false" wrapText="false">
       <font>
         <Font name="System Bold" size="12"/>
@@ -21,5 +21,17 @@
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible=""/>
     <Data cursor="DEFAULT" enabled="1" id="data-progressIndicatorAlt" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image" layoutX="114" layoutY="14" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/1024x1024.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="146" layoutY="14" prefHeight="30" prefWidth="328" styleClass="label " text="Minecraft Server Status [DESKTOP]" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
   </children>
 </AnchorPane>

@@ -18,12 +18,16 @@ class MainModule extends AbstractModule
         if ($state == "RUNNING"){
             // RUNNING
             $this->label->visible = false;
+            $this->labelAlt->visible = false;
+            $this->image->visible = false;
             $this->browser->opacity = 0.01;
         } elseif ($state == "SUCCEEDED"){
             // SUCCEEDED
             app()->form("_window")->title = $this->browser->engine->title;
             
             $this->label->visible = true;
+            $this->labelAlt->visible = false;
+            $this->image->visible = false;
             $this->browser->opacity = 1;
             
         } else {
@@ -35,8 +39,10 @@ class MainModule extends AbstractModule
         if ($url == "https://api.mcsrvstat.us/"){
             // https://api.mcsrvstat.us/
             $this->browser->engine->url = "https://mcsrvstat.us/";
+            $this->form("_window")->toast("Этот ресурс недоступен.");
         } elseif ($url == "https://status.mcsrvstat.us/") {
             $this->browser->engine->url = "https://mcsrvstat.us/";
+            $this->form("_window")->toast("Этот ресурс недоступен.");
         }
         
     }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="winda" authorOS="Windows 10" createdAt="1723226731552" ideName="DevelWare Studio" ideVersion="16.7.1" ideVersionHash="2024080100" name="mcsrvdesktop" packageName="meigo" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1723243685333">
+<project author="winda" authorOS="Windows 10" createdAt="1723226731552" ideName="DevelWare Studio" ideVersion="16.7.1" ideVersionHash="2024080100" name="mcsrvdesktop" packageName="meigo" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1723314043604">
   <tree>
     <expanded>
-      <path src=""/>
+    <path src=""/>
       <path src="/src"/>
       <path src="/src/.theme"/>
       <path src="/src/meigo"/>
@@ -11,14 +11,14 @@
     </expanded>
   </tree>
   <openedFiles>
-    <file src="mcsrvdesktop.dnproject"/>
+  <file src="mcsrvdesktop.dnproject"/>
     <file src="src/meigo/modules/MainModule.php"/>
     <file selected="1" src="src/meigo/forms/MainForm.php"/>
     <file src="src/meigo/forms/_window.php"/>
   </openedFiles>
   <files/>
   <behaviours>
-    <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
     <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
